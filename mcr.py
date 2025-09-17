@@ -19,6 +19,7 @@ def is_win(game):
         win = True
     if game[0][2] == game[1][1] == game[2][0] and (game[0][2] == 'X' or game[0][2] == 'O'):
         win = True
+    print(win)
     return win
 
 def main():
